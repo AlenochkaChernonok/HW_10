@@ -1,0 +1,29 @@
+    1  git clone https://github.com/AlenochkaChernonok/HW_10.git
+    2  cd HW_10
+    3  touch  text_ignore.txt
+    4  nano .gitignore
+    5  ls -l
+    6  git status
+    7  git add .
+    8  git commit -m "Файл  text_ignore.txt було дадано"
+    9  touch  main_test.txt
+   10  ls -l
+   11  git add .
+   12   git commit -m "Файл  main_test.txt було створено"
+   13  git branch develop
+   14  git checkout develop
+   15  git branch
+   16  touch develop_test.txt
+   17  ls -l
+   18  git add .
+   19   git commit -m "Файл develop_test.txt
+ було створено"
+   20  nano develop_test.txt file
+   21  git status
+   22  git add .
+   23   git commit -m "Файл Hello World.txt
+ було дадано"
+   24  git checkout main
+   25  git merge develop
+   26  git log
+   27   history > command_list.csv
